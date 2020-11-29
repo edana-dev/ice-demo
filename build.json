@@ -1,0 +1,28 @@
+{
+  "plugins": [
+    [
+      "build-plugin-fusion",
+      {
+        "themePackage": [
+          {
+            "name": "@alifd/theme-design-pro"
+          },
+          {
+            "name": "@alifd/theme-ice-orange"
+          },
+          {
+            "name": "@alifd/theme-ice-green"
+          }
+        ]
+      }
+    ],
+    [
+      "build-plugin-moment-locales",
+      {
+        "locales": [
+          "zh-cn"
+        ]
+      }
+    ]
+  ]
+}
